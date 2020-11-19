@@ -1,4 +1,12 @@
 
+dumb_global_variable = 19
+
+
+def dumb_function():
+    global dumb_global_variable
+
+    dumb_global_variable = 10
+
 
 def add(a: float, b: float, *c, force_int=False, **extras) -> list:
     '''
